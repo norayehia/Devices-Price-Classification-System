@@ -1,5 +1,6 @@
 # Devices-Price-Classification-System
-predict the prices, allowing the sellers to classify the device's prices according to their characteristics 
+# predict the prices, allowing the sellers to classify the device's prices according to their characteristics 
+<br>
 Dataset columns are as follows: 
 ■ id - ID 
 ■ battery_power - Total energy a battery can store in one time measured in mAh 
