@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Mobile Specifications</title>
+</head>
+<body>
+    <div>
+        <h1>Predict Mobile Specifications</h1>
+        <form action="{{ url_for('getprediction')}}" method="post">
+            <input type="number" name="battery_power" placeholder="Battery Power (mAh)" step="0.1" required />
+            <input type="number" name="blue" placeholder="Bluetooth (0 for No, 1 for Yes)" required />
+            <input type="number" name="clock_speed" placeholder="Clock Speed" step="0.1" required />
+            <input type="number" name="dual_sim" placeholder="Dual SIM (0 for No, 1 for Yes)" required />
+            <input type="number" name="fc" placeholder="Front Camera (MP)" step="0.1" required />
+            <input type="number" name="four_g" placeholder="4G (0 for No, 1 for Yes)" required />
+            <input type="number" name="int_memory" placeholder="Internal Memory (GB)" required />
+            <input type="number" name="m_dep" placeholder="Mobile Depth (cm)" step="0.1" required />
+            <input type="number" name="mobile_wt" placeholder="Mobile Weight (g)" required />
+            <input type="number" name="n_cores" placeholder="Number of Cores" required />
+            <input type="number" name="pc" placeholder="Primary Camera (MP)" step="0.1" required />
+            <input type="number" name="px_height" placeholder="Pixel Resolution Height" required />
+            <input type="number" name="px_width" placeholder="Pixel Resolution Width" required />
+            <input type="number" name="ram" placeholder="RAM (MB)" required />
+            <input type="number" name="sc_h" placeholder="Screen Height (cm)" required />
+            <input type="number" name="sc_w" placeholder="Screen Width (cm)" required />
+            <input type="number" name="talk_time" placeholder="Talk Time (hours)" required />
+            <input type="number" name="three_g" placeholder="3G (0 for No, 1 for Yes)" required />
+            <input type="number" name="touch_screen" placeholder="Touch Screen (0 for No, 1 for Yes)" required />
+            <input type="number" name="wifi" placeholder="WiFi (0 for No, 1 for Yes)" required />
+            <button type="submit" class="btn btn-primary btn-block btn-large">Get Prediction</button>
+        </form>
+        <br>
+        <br>
+        {{ output }}
+    </div>
+</body>
+</html>
