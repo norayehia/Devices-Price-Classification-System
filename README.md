@@ -19,19 +19,16 @@ Dataset columns are as follows:
 ■ four_g - Has 4G or not 
 <br>
 ■ int_memory - Internal Memory in Gigabytes 
+<br>
 ■ m_dep - Mobile Depth in cm 
+<br>
 ■ mobile_wt - Weight of mobile phone 
+<br>
 ■ n_cores - Number of cores of the processor 
-■ pc - Primary Camera megapixels 
-■ px_height - Pixel Resolution Height 
-■ px_width - Pixel Resolution Width 
-■ ram - Random Access Memory in Megabytes 
-■ sc_h - Screen Height of mobile in cm 
-■ sc_w - Screen Width of mobile in cm 
-■ talk_time - longest time that a single battery charge will last when you are 
-■ three_g - Has 3G or not 
-■ touch_screen - Has touch screen or not 
-■ wifi - Has wifi or not 
+<br>
+and more
+,the target is
+<br>
 ■ price_range - This is the target variable with the value of: 
 ● 0 (low cost) 
 ● 1 (medium cost) 
